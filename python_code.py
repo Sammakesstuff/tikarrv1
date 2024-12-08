@@ -155,13 +155,13 @@ def open_popup():
     popup.title("Image Placement")
 
     # Add buttons for each image with different texts
-    btn_img1 = tk.Button(popup, text="Normal", command=lambda: show_image("image1.png", "This is the best placement in terms of monitoring, also used commonly in health care and also works on pediatrics"))
+    btn_img1 = tk.Button(popup, text="Normal", command=lambda: show_image("image1.png", "This is the best placement in terms of monitoring, also used commonly in health care and also worked on pediatrics"))
     btn_img1.grid(row=0, column=0, padx=10, pady=10)
 
-    btn_img2 = tk.Button(popup, text="Image 2", command=lambda: show_image("image2.png", "This is the best placement in terms of recording data, has been scientifaclly proven in studies and works on both adults and pediatrics"))
+    btn_img2 = tk.Button(popup, text="Recording Data", command=lambda: show_image("image2.png", "This is the best placement in terms of recording data, has been scientifically proven in studies and works on both adults and pediatrics"))
     btn_img2.grid(row=0, column=1, padx=10, pady=10)
 
-    btn_img3 = tk.Button(popup, text="Image 3", command=lambda: show_image("image3.jpg", "This is the triangle placement it forms a triangle via the electrodes it is also commonly used in other countries, and works on adults and pediatrics"))
+    btn_img3 = tk.Button(popup, text="Triangle Placement", command=lambda: show_image("image3.jpg", "This is the triangle placement it forms a triangle via the electrodes it is also commonly used in other countries, and works on adults and pediatrics"))
     btn_img3.grid(row=0, column=2, padx=10, pady=10)
 
 # Set up Tkinter window
