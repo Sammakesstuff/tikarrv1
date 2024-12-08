@@ -155,7 +155,7 @@ def open_popup():
     popup.title("Image Placement")
 
     # Add buttons for each image with different texts
-    btn_img1 = tk.Button(popup, text="Adult", command=lambda: show_image("image1.png", "This is the best placement in terms of monitoring, also used commonly in health care and also works on pediatrics"))
+    btn_img1 = tk.Button(popup, text="Normal", command=lambda: show_image("image1.png", "This is the best placement in terms of monitoring, also used commonly in health care and also works on pediatrics"))
     btn_img1.grid(row=0, column=0, padx=10, pady=10)
 
     btn_img2 = tk.Button(popup, text="Image 2", command=lambda: show_image("image2.png", "This is the best placement in terms of recording data, has been scientifaclly proven in studies and works on both adults and pediatrics"))
